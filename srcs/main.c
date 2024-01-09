@@ -6,7 +6,7 @@
 /*   By: qroyo <qroyo@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 08:43:50 by qroyo             #+#    #+#             */
-/*   Updated: 2024/01/09 13:09:57 by qroyo            ###   ########.fr       */
+/*   Updated: 2024/01/09 13:15:47 by qroyo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,6 @@ void	ft_algo_found(t_list *data, int argc, char **argv)
 	ft_parse(data, argc, argv);
 	data->size_a = argc - 1;
 	data->size_b = 0;
-	data->write = 'o';
 	ft_median(data);
 	ft_algo_push_b(data);
 	ft_algo_push_a(data);
