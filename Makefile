@@ -31,7 +31,7 @@ all: $(NAME)
 $(NAME): $(LIBFT) $(OBJ_FILES)
 	@$(CC) $(CFLAG) $(OBJ_FILES) -L$(LIBFT_DIR) -lft -o $(NAME)
 
-$(LIBFT):
+$(LIBFT): FORCE
 	@make -C $(LIBFT_DIR)
 
 $(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
@@ -49,4 +49,6 @@ fclean:clean
 re : fclean
 	all
 
-.PHONY: fclean clean all re
+FORCE:
+
+.PHONY: fclean clean all re FORCE
