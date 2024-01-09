@@ -6,7 +6,7 @@
 /*   By: qroyo <qroyo@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 09:35:34 by qroyo             #+#    #+#             */
-/*   Updated: 2024/01/09 13:00:16 by qroyo            ###   ########.fr       */
+/*   Updated: 2024/01/09 13:07:09 by qroyo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_is_sorted(int x1, int x2, int x3)
 		return (0);
 }
 
-void clean_exit(t_list *data)
+void	clean_exit(t_list *data)
 {
 	ft_free_data(data);
 	exit (1);

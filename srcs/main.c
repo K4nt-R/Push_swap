@@ -6,7 +6,7 @@
 /*   By: qroyo <qroyo@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 08:43:50 by qroyo             #+#    #+#             */
-/*   Updated: 2024/01/09 13:01:21 by qroyo            ###   ########.fr       */
+/*   Updated: 2024/01/09 13:09:57 by qroyo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,8 +108,3 @@ int	main(int argc, char **argv)
 		return (ft_free_data(data), 0);
 	}
 }
-
-//proteger les writes
-//supprimer ft_print arr
-//supprimer stdio.h
-//header proximity
